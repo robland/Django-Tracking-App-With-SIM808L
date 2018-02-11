@@ -77,13 +77,13 @@ WSGI_APPLICATION = 'test_gps.wsgi.application'
 DATABASES = {
     'default': {
         #'ENGINE': 'django.db.backends.sqlite3',
-        'ENGINE': 'django.db.backends.postgresql',
-        #'ENGINE': 'django.db.backends.mysql',
+        #'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'projet',
         'USER':'projet_admin',
         'PASSWORD': 'leonadmin',
         'HOST':'127.0.0.1',
-        'PORT':'5432',
+        'PORT':'3306',
     }
 }
 
