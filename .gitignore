@@ -1,0 +1,6 @@
+*.pyc
+__pycache__
+test_gps
+db.sqlite3
+/static
+.DS_Store
